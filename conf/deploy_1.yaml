@@ -1,28 +1,33 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: depl31
+  name: depl1
   labels:
-    pod: depl31
+    pod: depl1
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
-      app: task03
+      app: task04
   template:
     metadata:
       labels:
-        app: task03
+        app: task04
     spec:
       containers:
       - name: nginx
         image: nginx:1.14.2
-#        ports:
-#        - containerPort: 80
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
       - name: multitool
         image: wbitt/network-multitool
         ports:
-        - containerPort: 80
+          - containerPort: 80
         env:
           - name: HTTP_PORT
-            value: "81"
+            value: "8080"

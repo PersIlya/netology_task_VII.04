@@ -33,12 +33,12 @@
 5. Предоставить манифесты Deployment и Service в решении, а также скриншоты или вывод команды п.4.
 
 ## Решение
-> по пунктам 1-3
-![localImage](./screen_VII.04_1.png)    
+> по пунктам 1-2
+![localImage](./screen_VII.04_1.png)        
+> по пункту 3
+![localImage](./screen_VII.04_2.png)      
 > по пункту 4
-![localImage](./screen_VII.04_2.png) 
-> по пункту 5
-![localImage](./screen_VII.04_3.png) 
+![localImage](./screen_VII.04_3.png)      
 
 ## Ссылки на файлы:
 >[Deploy](./conf/deploy_1.yaml);    
@@ -54,10 +54,10 @@
 3. Предоставить манифест и Service в решении, а также скриншоты или вывод команды п.2.
 
 ## Решение
-> по пунктам 1-3
-![localImage](./screen_VII.03_1.png)    
-> по пункту 4
-![localImage](./screen_VII.03_2.png) 
-> по пункту 5
-![localImage](./screen_VII.03_3.png) 
+> по пунктам 1-2
+![localImage](./screen_VII.04_4.png)    
 
+## Ссылка на файл:  
+>[Service](./conf/service_2.yaml).   
+
+![localImage](./Yes.png)
